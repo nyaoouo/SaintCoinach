@@ -12,6 +12,7 @@
       "count": 2,
       "definition": {
         "type": "group",
+        "name": "Receive",
         "members": [
           {
             "type": "repeat",
@@ -58,6 +59,7 @@
       "count": 3,
       "definition": {
         "type": "group",
+        "name": "Cost",
         "members": [
           {
             "type": "repeat",

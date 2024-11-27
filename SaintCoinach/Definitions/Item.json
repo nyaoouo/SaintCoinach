@@ -364,6 +364,7 @@
       "count": 6,
       "definition": {
         "type": "group",
+        "name": "Param",
         "members": [
           {
             "name": "BaseParam",
@@ -396,6 +397,7 @@
       "count": 6,
       "definition": {
         "type": "group",
+        "name": "ParamSpecial",
         "members": [
           {
             "name": "BaseParam{Special}",

@@ -15,6 +15,7 @@
       "count": 10,
       "definition": {
         "type": "group",
+        "name": "Target",
         "members": [
           {
             "name": "MonsterNoteTarget{Common}",
@@ -47,6 +48,7 @@
       "count": 3,
       "definition": {
         "type": "group",
+        "name": "Fate",
         "members": [
           {
             "name": "Fate",
