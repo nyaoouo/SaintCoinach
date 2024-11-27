@@ -290,7 +290,7 @@
       "type": "repeat",
       "count": 64,
       "definition": {
-        "name": "ActorSpawnSeq"
+        "name": "EventSeq"
       }
     },
     {
@@ -298,7 +298,7 @@
       "type": "repeat",
       "count": 64,
       "definition": {
-        "name": "ActorDespawnSeq"
+        "name": "EventTodo"
       }
     },
     {
@@ -306,23 +306,15 @@
       "type": "repeat",
       "count": 64,
       "definition": {
-        "name": "Listener"
+        "name": "EventListener"
       }
     },
     {
       "index": 342,
       "type": "repeat",
-      "count": 32,
+      "count": 64,
       "definition": {
-        "name": "QuestUInt8A"
-      }
-    },
-    {
-      "index": 374,
-      "type": "repeat",
-      "count": 32,
-      "definition": {
-        "name": "QuestUInt8B"
+        "name": "Event"
       }
     },
     {
@@ -362,7 +354,7 @@
       "type": "repeat",
       "count": 64,
       "definition": {
-        "name": "VisibleBool"
+        "name": "EventAccept"
       }
     },
     {
@@ -370,7 +362,7 @@
       "type": "repeat",
       "count": 64,
       "definition": {
-        "name": "ConditionBool"
+        "name": "EventAnnounce"
       }
     },
     {
@@ -378,7 +370,7 @@
       "type": "repeat",
       "count": 64,
       "definition": {
-        "name": "ItemBool"
+        "name": "EventQualified"
       }
     },
     {
@@ -386,7 +378,7 @@
       "type": "repeat",
       "count": 64,
       "definition": {
-        "name": "AnnounceBool"
+        "name": "EventTargetingPossible"
       }
     },
     {
@@ -394,7 +386,7 @@
       "type": "repeat",
       "count": 64,
       "definition": {
-        "name": "BehaviorBool"
+        "name": "EventItem"
       }
     },
     {
@@ -402,7 +394,7 @@
       "type": "repeat",
       "count": 64,
       "definition": {
-        "name": "AcceptBool"
+        "name": "EventMovable"
       }
     },
     {
@@ -410,7 +402,7 @@
       "type": "repeat",
       "count": 64,
       "definition": {
-        "name": "QualifiedBool"
+        "name": "EventCondition"
       }
     },
     {
@@ -418,7 +410,7 @@
       "type": "repeat",
       "count": 64,
       "definition": {
-        "name": "CanTargetBool"
+        "name": "EventVisible"
       }
     },
     {
@@ -458,7 +450,7 @@
       "type": "repeat",
       "count": 24,
       "definition": {
-        "name": "CountableNum"
+        "name": "TodoShowIndex"
       }
     },
     {
